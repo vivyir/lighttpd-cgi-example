@@ -26,3 +26,11 @@ and you would get a result similar to:
 
 Be sure to look at the source code and config file for lighttpd to
 understand everything better.
+
+## Running without compiling
+There exists a precompiled binary so you can check it without needing
+to compiled, just run with:
+
+```
+lighttpd -Df ./lighttpd.conf
+```
