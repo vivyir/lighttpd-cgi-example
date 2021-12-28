@@ -27,6 +27,10 @@ and you would get a result similar to:
 Be sure to look at the source code and config file for lighttpd to
 understand everything better.
 
+## Running
+Because of how lighttpd works you have to edit the 10th line of lighttpd.conf
+a.k.a the `server.document-root` to the www directory of your cloned repository
+
 ## Running without compiling
 There exists a precompiled binary so you can check it without needing
 to compile the rust program, just run with:
