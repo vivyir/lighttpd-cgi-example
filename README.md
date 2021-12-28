@@ -29,7 +29,7 @@ understand everything better.
 
 ## Running without compiling
 There exists a precompiled binary so you can check it without needing
-to compiled, just run with:
+to compile the rust program, just run with:
 
 ```
 lighttpd -Df ./lighttpd.conf
